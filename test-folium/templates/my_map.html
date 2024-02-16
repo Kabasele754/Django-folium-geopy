@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eaeb4ec615eaecf5cc196bccc62270e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eaeb4ec615eaecf5cc196bccc62270e3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eaeb4ec615eaecf5cc196bccc62270e3 = L.map(
+                "map_eaeb4ec615eaecf5cc196bccc62270e3",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_641d3bb9d9801c585374bfa1834aec4d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_641d3bb9d9801c585374bfa1834aec4d.addTo(map_eaeb4ec615eaecf5cc196bccc62270e3);
+        
+    
+            var marker_029d9f00379c2a6b99dbfa8a1f232fbd = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_eaeb4ec615eaecf5cc196bccc62270e3);
+        
+    
+            var icon_11ed4652a3f0941d817ae63474b35858 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_029d9f00379c2a6b99dbfa8a1f232fbd.setIcon(icon_11ed4652a3f0941d817ae63474b35858);
+        
+    
+        var popup_0d1e24db8917ec39fb70ff5e5844411a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b80f332753ed527ee8a4455bea55188f = $(`<div id="html_b80f332753ed527ee8a4455bea55188f" style="width: 100.0%; height: 100.0%;">Paris</div>`)[0];
+                popup_0d1e24db8917ec39fb70ff5e5844411a.setContent(html_b80f332753ed527ee8a4455bea55188f);
+            
+        
+
+        marker_029d9f00379c2a6b99dbfa8a1f232fbd.bindPopup(popup_0d1e24db8917ec39fb70ff5e5844411a)
+        ;
+
+        
+    
+    
+            var marker_abad9c5306775ed737fa199c53e8672b = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_eaeb4ec615eaecf5cc196bccc62270e3);
+        
+    
+            var icon_f0acfa4f3233f1a56da0b2b07444ae26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abad9c5306775ed737fa199c53e8672b.setIcon(icon_f0acfa4f3233f1a56da0b2b07444ae26);
+        
+    
+        var popup_2d4f3dcf76b382d4ee1f43ba381173f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4eea3dba2b9d8f7f9495165d5ba74c9 = $(`<div id="html_c4eea3dba2b9d8f7f9495165d5ba74c9" style="width: 100.0%; height: 100.0%;">Paris</div>`)[0];
+                popup_2d4f3dcf76b382d4ee1f43ba381173f5.setContent(html_c4eea3dba2b9d8f7f9495165d5ba74c9);
+            
+        
+
+        marker_abad9c5306775ed737fa199c53e8672b.bindPopup(popup_2d4f3dcf76b382d4ee1f43ba381173f5)
+        ;
+
+        
+    
+    
+            var marker_ea13804cee7862523ac0a8193cb33a85 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_eaeb4ec615eaecf5cc196bccc62270e3);
+        
+    
+        var popup_ebc7784cdde4cbaefff7f54b678a5a7e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_628244cfaeb8ba9f6a292634424c8527 = $(`<div id="html_628244cfaeb8ba9f6a292634424c8527" style="width: 100.0%; height: 100.0%;"><b>Paris</b><br><i>City of Lights</i></div>`)[0];
+                popup_ebc7784cdde4cbaefff7f54b678a5a7e.setContent(html_628244cfaeb8ba9f6a292634424c8527);
+            
+        
+
+        marker_ea13804cee7862523ac0a8193cb33a85.bindPopup(popup_ebc7784cdde4cbaefff7f54b678a5a7e)
+        ;
+
+        
+    
+    
+            var circle_6253a71cd1cccb64bb9c8a62f1c0a1c9 = L.circle(
+                [48.8566, 2.3522],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_eaeb4ec615eaecf5cc196bccc62270e3);
+        
+</script>
+</html>

@@ -1,0 +1,60 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="38">
+            <item index="0" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="1" class="java.lang.String" itemvalue="pypng" />
+            <item index="2" class="java.lang.String" itemvalue="qrcode" />
+            <item index="3" class="java.lang.String" itemvalue="sweetify" />
+            <item index="4" class="java.lang.String" itemvalue="asgiref" />
+            <item index="5" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="6" class="java.lang.String" itemvalue="djangorestframework-simplejwt" />
+            <item index="7" class="java.lang.String" itemvalue="Django" />
+            <item index="8" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="9" class="java.lang.String" itemvalue="shortuuid" />
+            <item index="10" class="java.lang.String" itemvalue="pytz" />
+            <item index="11" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="12" class="java.lang.String" itemvalue="Pillow" />
+            <item index="13" class="java.lang.String" itemvalue="django-decouple" />
+            <item index="14" class="java.lang.String" itemvalue="certifi" />
+            <item index="15" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="16" class="java.lang.String" itemvalue="python-decouple" />
+            <item index="17" class="java.lang.String" itemvalue="googlemaps" />
+            <item index="18" class="java.lang.String" itemvalue="requests" />
+            <item index="19" class="java.lang.String" itemvalue="urllib3" />
+            <item index="20" class="java.lang.String" itemvalue="idna" />
+            <item index="21" class="java.lang.String" itemvalue="django-smart-selects" />
+            <item index="22" class="java.lang.String" itemvalue="django-hitcount" />
+            <item index="23" class="java.lang.String" itemvalue="django-etc" />
+            <item index="24" class="java.lang.String" itemvalue="django-ajax-selects" />
+            <item index="25" class="java.lang.String" itemvalue="django-autos" />
+            <item index="26" class="java.lang.String" itemvalue="django-cities-light" />
+            <item index="27" class="java.lang.String" itemvalue="django-widget-tweaks" />
+            <item index="28" class="java.lang.String" itemvalue="django-ckeditor" />
+            <item index="29" class="java.lang.String" itemvalue="django-autoslug" />
+            <item index="30" class="java.lang.String" itemvalue="Unidecode" />
+            <item index="31" class="java.lang.String" itemvalue="python-utils" />
+            <item index="32" class="java.lang.String" itemvalue="django-js-asset" />
+            <item index="33" class="java.lang.String" itemvalue="progressbar2" />
+            <item index="34" class="java.lang.String" itemvalue="PyPDF2" />
+            <item index="35" class="java.lang.String" itemvalue="django-cron" />
+            <item index="36" class="java.lang.String" itemvalue="python-docx" />
+            <item index="37" class="java.lang.String" itemvalue="pymupdf" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app_public.views.article.post.likes_post" />
+          <option value="bytes.presence_of_element_located" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

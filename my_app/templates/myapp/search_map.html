@@ -1,0 +1,50 @@
+<style>
+    /* Style for the input field */
+
+    .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+    #address {
+        width: 700px;
+        padding: 8px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    /* Style for the button */
+    button[type="submit"] {
+        width: 250px;
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    /* Style for the button on hover */
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<!-- Your form HTML with styles applied -->
+<form method="post" class="container">
+    {% csrf_token %}
+    <input type="text" id="address" name="address" placeholder="Enter your address">
+    <button type="submit">Display on the map</button>
+</form>
+
+<br>
+
+<div class="container">
+    {{map_html|safe}}
+</div>
+
+
+
